@@ -1,0 +1,118 @@
+body {
+    margin: 0px;
+}
+
+.sidebar {
+    position: relative;
+    height: 100vh;
+}
+
+.sidebar-menu {
+    list-style-type: none;
+    font-size: 14px;
+    padding: 0;
+}
+
+.sidebar-list-item {
+    padding: 5px 5px 5px 5px;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.sidebar-list-item .numbers {
+    color: #ffffff;
+    margin-left: 20px;
+    background-color: #2683FD;
+    border-radius: 100%;
+    padding: 4px 5px;
+    font-weight: 700;
+    font-size: 7px;
+}
+
+.sidebar-list-item:hover {
+    background-color: #DFEBFF;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 5px;
+    border-color: transparent;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-style: solid;
+}
+
+.list-heading {
+    border-top: 0px;
+    border-bottom: 3px;
+    border-left: 0px;
+    border-right: 0px;
+    border-style: solid;
+    border-color: #1C7DFE;
+}
+
+.list-heading p {
+    text-transform: uppercase;
+    padding: 15px 20px;
+    margin: 0px;
+    font-size: 14px;
+}
+
+.list-component {
+    height: 100vh;
+    background-color: #ffffff;
+    border-bottom: 0px;
+    border-top: 0px;
+    border-left: 1px;
+    border-right: 1px;
+    border-color: #EBECED;
+    border-style: solid;
+}
+
+.list-items {
+    background-color: #FAFCFE;
+    padding: 20px;
+    border-bottom: 1px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-color: #EBECED;
+    border-style: solid;
+    cursor: pointer;
+}
+
+.list-items .circle icon {
+    background-color: red;
+}
+
+.content {}
+
+.content p {
+    font-size: 12px;
+    font-weight: 600;
+    margin: 0px;
+}
+
+.content .icon p {
+    font-size: 8px;
+}
+
+.addbtn {
+    position: absolute;
+    bottom: 30px;
+    right: 10px;
+}
+
+.addbtn button {
+    font-size: 28px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 100%;
+    background-color: #FF7252;
+    padding: 2px 15px;
+}
+
+.table {
+    background-color: red;
+}
