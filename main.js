@@ -131,5 +131,5 @@ function savetodo() {
     } else {
         // No web storage Support.
     }
-    location.reload();
+    location.reload(true);
 }
